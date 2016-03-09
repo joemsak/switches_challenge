@@ -1,0 +1,17 @@
+GIT
+  remote: git://github.com/joemsak/switches.git
+  revision: 7bcfc374d64c87cca1bd19d000865a038d37b8d4
+  specs:
+    switches (0.1.0)
+
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  switches!
+
+BUNDLED WITH
+   1.11.2
