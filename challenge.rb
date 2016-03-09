@@ -8,7 +8,7 @@ input = File.read('./input.txt')
 num_switches = input.lines[0].to_i
 runs = []
 
-input.lines[1..input.lines.length - 1].each do |line|
+input.lines[1..-1].each do |line|
   range = line.split(' ').map(&:chomp).map(&:to_i).sort
   runs << range
 end
